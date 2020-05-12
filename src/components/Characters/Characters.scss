@@ -1,0 +1,63 @@
+.fiches {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-self: center;
+    
+}
+
+.fiche {
+    width: 479px;
+    height: 200px;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+
+.fiche-title {
+    color: white;
+    font-size: 1.6em;
+    position: relative;
+    bottom: -120px;
+    z-index: 100;
+    width: auto;
+    padding: 0;
+    background-color: red;
+    margin: 1em;
+    margin-left: 1em;
+}
+
+.image {
+    z-index: 200;
+    width: 100%;
+    margin: -120px 0;
+    
+}
+
+.form-search {
+    height: 350px;
+    width: 100%;
+    margin: 1em auto;
+    padding: 2em 0;
+    background-image: url('/src/images/font-search.png') ;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.input-value {
+   position: relative;
+   font-family: 'Roboto Condensed', sans-serif;
+   font-size: 1.3em;
+   height: 3em;
+   width: 280px;
+   bottom: -220px;
+   left: 20px;
+}
+
+@media (max-width: 768px) {
+    .input-value {
+        width: 300px;
+        left: 0;
+    }
+}

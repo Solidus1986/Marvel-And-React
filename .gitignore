@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.vs/
+.vs-code/
+
+# API KEY
+.env
+
+.DS_Store
+Thumbs.db
+
+yarn-error.log

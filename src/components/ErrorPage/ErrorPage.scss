@@ -1,0 +1,23 @@
+.container {
+    position: relative;
+    top: 100px;
+}
+
+.image-error {
+    padding: 1em 0;
+    height: 400px;
+}
+
+.button-home {
+    background-color: red;
+    width: 150px;
+    margin: 0 auto;
+    padding: 1em 0;
+    border-radius: .5em; 
+}
+
+@media (max-width: 768px) {
+    .image-error {
+        height: 150px;
+    }
+}
